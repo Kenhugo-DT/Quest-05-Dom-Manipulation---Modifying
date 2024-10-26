@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(69, 69, 69);
+    color: rgb(0, 221, 255);
+}
+
+h1 {
+    font-size: 4.2rem;
+    margin: 10px;
+  }
+  
+p {
+    font-size: 1.3rem;
+    margin: 30px;
+    
+}
+
+
+#tome-content {
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 60px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    
+}
+
+
+#inventory-management {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+
+button{
+    display: inline-block;
+    background-color: var(--accent);
+    border-radius: 8px;
+    box-shadow: rgba(58, 225, 122, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(64, 224, 125, 0.15) 0 2px 4px,rgba(49, 219, 114, 0.218) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color:azure;
+    cursor: pointer;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    margin: 25px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44, 187, 168, 0.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+}
